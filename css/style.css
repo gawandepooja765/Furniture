@@ -1,0 +1,353 @@
+*{
+margin:0;
+padding: 0;
+
+}
+body::-webkit-scrollbar {
+display: none;
+}
+
+.header{
+background-image:url(../images/Furniture-_shop-_01.jpg);
+width: auto;
+height: 618px;
+background-size: 100%;
+background-repeat: no-repeat;
+}
+.menubar ul li{
+display: inline-block;
+padding: 10px;
+}
+.menubar ul li a{
+color:black;
+text-decoration: none;
+text-transform: uppercase;
+}
+.outer{
+
+display: block;
+text-align: center;
+padding: 10px 30px;
+height: 40px;
+
+}
+.outer div {
+display: inline-block;
+}
+span{
+text-transform: uppercase;
+}
+.call{
+color: orange;
+padding-right: 20px;
+
+}
+.float-left{
+float: left;
+}
+.float-right{
+float: right;
+padding-right: 60px;
+
+}
+.heading h2{
+text-align: center;
+text-transform: uppercase;
+padding-top: 10%;
+}
+.heading p{
+text-align: center;
+padding: 10px;
+}
+.services h2{
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+padding-top: 50px;
+}
+.services p{
+text-align: center;
+}
+.services{
+width: 100%;
+}
+.service-section div{
+display: inline-block;
+width: 23%;
+padding: 10px;
+text-align: center;   
+}
+.service-section div h3{
+text-transform: uppercase;
+padding-top: 10px;
+}
+.service-section div button{
+background-color: orangered;
+color: white;
+border: none;
+margin: 15px;
+padding:10px;
+border-radius: 5px;
+cursor: pointer;
+}
+.about-us{
+background-image: url(../images/home_03.jpg);
+background-size: 100%;
+width: auto;
+height: 490px;
+}
+.about-us h2{
+padding: 20px 30px ;
+text-transform: uppercase;
+color: white;
+text-align: left;
+}
+.about-us p{
+color: white;
+padding-left: 30px;
+}
+.about-us button{
+background-color: black;
+padding: 5px;
+color: white;
+border-radius: 10%;
+margin: 20px;
+}
+.our-furniture{
+width: 100%
+}
+.our-furniture div{
+display: inline-block;
+width: 40%;
+text-align: center;
+padding-left: 70px;
+padding-right: 40px;
+padding-top: 50px;
+
+}
+.our-furniture h2{
+text-align: center;
+padding-top: 50px;
+text-transform: uppercase;
+}
+.our-furniture p{
+text-align: center;
+}
+.our-furniture h4{
+color: orange;
+text-transform: uppercase;
+text-align: justify;
+margin-bottom: 10px;
+}
+.our-furniture div p{
+text-align: justify;
+}
+.our-project{
+width: 100%;
+text-align: center;
+background-color: orange;
+padding-top: 20px;
+margin-top: 40px;
+}
+.our-project h2{
+text-transform: uppercase;
+text-align: center
+}
+.our-project div{
+display: inline-block;
+width: 30%;
+margin-top: 30px;
+}
+.our-client{    
+width: 100%;
+
+}
+.our-client h1{
+text-align: center;
+text-transform: uppercase;
+padding: 10px 0px;
+}
+#loksans{
+border: solid black 1px;  
+width: 50%;     
+}
+#exer{
+border: solid black 1px;  
+width: 50%; 
+float: right;         
+}
+#exer p{
+    display: inline;
+    }
+.contact-us{
+padding-top: 30px;
+padding-bottom: 30px;
+clear: right;
+width: 100%;
+background-color: rgb(255, 187, 0);
+
+}
+.contact-us div{
+display: inline-block;
+width: 45%;
+}   
+.float-left h2{
+text-transform: uppercase;
+color: white;
+margin: 10px;
+}
+.input-form{
+margin: 15px;
+padding: 15px;
+width: 550px;
+border: none;
+border-radius: 5%
+} 
+.send-button{
+color: white;
+border: solid white 1px;
+text-align: center;
+padding: 10px;
+font-size: 15px;
+margin: 10px;
+border-radius: 5%;
+cursor: pointer;
+background-color: rgb(255, 187, 0);
+
+}   
+.send-button:hover{
+background-color: orangered;
+}
+
+.float-left img{
+margin: 10px;
+} 
+.end-section{
+width: 100%;
+display: block;
+background-color: grey;
+padding-top: 30px;
+padding-bottom: 30px;
+
+}
+.end-section div{
+display: inline-block;
+width: 23%;
+text-align: center;
+padding: 10px;
+}
+.end-section h3{
+text-transform: uppercase;
+
+}
+.end-section p{
+text-align: center;
+}
+
+/*media query*/
+@media only screen and (max-width:480px){
+heading p {
+text-align: center;
+padding: 9px;
+font-size: small;
+}
+h2{
+font-size: 18px;
+}
+h3{
+font-size: 15px;
+}
+.header{
+
+height: 100%;
+}
+.menubar ul li a{
+color:black;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 10px;
+}
+
+.call{
+color: orange;
+
+font-size: 13px;
+}
+.float-right{
+font-size: 15px;
+}
+.service-section div {
+width: 100%;
+padding: 0;
+}
+
+.about-us{
+height: 300px;
+}
+.about-us p{
+
+text-align: justify;
+}
+.our-furniture{
+width: 100%;
+text-align: center;
+}
+.our-furniture div{          
+padding: 0px;
+width: 100%;
+
+}
+.myimgsize {
+width: 100%;
+max-width: 100%;
+}
+
+.our-project{
+width: 100%;
+text-align: center;
+background-color: orange;
+}
+.our-project div{
+width:100%;
+margin-top: 30px;
+}
+.our-client{
+width: 100%;
+padding: 0px;
+
+}
+h1{
+font-size: 20px;
+
+}
+#loksans{
+border: none;
+width: 100%;
+}
+#exer{
+width: 100%;        
+border: none;
+}
+.contact-us div{            
+width: 100%;
+
+}
+.input-form{
+margin: 15px;
+padding: 15px;
+width: 300px;
+border: none;
+border-radius: 5px;
+}
+.contact-us .float-left img{
+display: none;
+}
+.end-section div{
+padding: 0px;
+width: 100%;        
+background-color: grey;
+text-align: center;
+margin-bottom: 10px;
+}
+}
+
